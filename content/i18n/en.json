@@ -11,6 +11,10 @@
     "reservation": {
       "title": "Reservation — Spichlerz Nr 8",
       "description": "Book a table at Spichlerz Nr 8 on Granary Island in Gdańsk."
+    },
+    "contact": {
+      "title": "Contact — Spichlerz Nr 8",
+      "description": "Address, opening hours, directions and parking for Spichlerz Nr 8 on Granary Island in Gdańsk."
     }
   },
   "Nav": {
@@ -124,6 +128,26 @@
       "emailSubject": "Reservation confirmation — Spichlerz Nr 8",
       "emailBody": "Hello {name},\n\nThank you for booking a table at Spichlerz Nr 8.\n\nDate: {date}\nTime: {time}\nParty size: {partySize}\n\nSee you soon!",
       "success": "Thank you! Your reservation has been received — a confirmation has been emailed to you."
+    }
+  },
+  "WeekdayLabel": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "Contact": {
+    "pageTitle": "Contact",
+    "addressHeading": "Address",
+    "hoursHeading": "Opening hours",
+    "directionsHeading": "Directions",
+    "parkingHeading": "Parking",
+    "hoursTable": {
+      "caption": "Opening hours by day of the week",
+      "closed": "Closed"
     }
   }
 }

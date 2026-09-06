@@ -11,6 +11,10 @@
     "reservation": {
       "title": "Rezerwacja — Spichlerz Nr 8",
       "description": "Zarezerwuj stolik w restauracji Spichlerz Nr 8 na Wyspie Spichrzów w Gdańsku."
+    },
+    "contact": {
+      "title": "Kontakt — Spichlerz Nr 8",
+      "description": "Adres, godziny otwarcia, dojazd i parking przy restauracji Spichlerz Nr 8 na Wyspie Spichrzów w Gdańsku."
     }
   },
   "Nav": {
@@ -124,6 +128,26 @@
       "emailSubject": "Potwierdzenie rezerwacji — Spichlerz Nr 8",
       "emailBody": "Dzień dobry {name},\n\ndziękujemy za rezerwację stolika w Spichlerzu Nr 8.\n\nData: {date}\nGodzina: {time}\nLiczba osób: {partySize}\n\nDo zobaczenia!",
       "success": "Dziękujemy! Rezerwacja została przyjęta, potwierdzenie wysłaliśmy mailem."
+    }
+  },
+  "WeekdayLabel": {
+    "monday": "Poniedziałek",
+    "tuesday": "Wtorek",
+    "wednesday": "Środa",
+    "thursday": "Czwartek",
+    "friday": "Piątek",
+    "saturday": "Sobota",
+    "sunday": "Niedziela"
+  },
+  "Contact": {
+    "pageTitle": "Kontakt",
+    "addressHeading": "Adres",
+    "hoursHeading": "Godziny otwarcia",
+    "directionsHeading": "Jak dojechać",
+    "parkingHeading": "Parking",
+    "hoursTable": {
+      "caption": "Godziny otwarcia w poszczególne dni tygodnia",
+      "closed": "Zamknięte"
     }
   }
 }

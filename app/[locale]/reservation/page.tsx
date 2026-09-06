@@ -5,6 +5,7 @@ import { getRestaurant } from "@/lib/content/get-restaurant";
 import { Section } from "@/components/ui/section";
 import { Heading } from "@/components/ui/heading";
 import { ReservationForm } from "@/components/reservation/reservation-form";
+import { buildMetadata } from "@/lib/seo/metadata";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -19,10 +20,12 @@ export async function generateMetadata({
     namespace: "Metadata.reservation",
   });
 
-  return {
+  return buildMetadata({
+    locale,
+    pathname: "/reservation",
     title: t("title"),
     description: t("description"),
-  };
+  });
 }
 
 export default async function ReservationPage({ params }: PageProps) {

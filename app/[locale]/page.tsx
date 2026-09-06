@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getRestaurant } from "@/lib/content/get-restaurant";
 import { getMenu } from "@/lib/content/get-menu";
+import { buildMetadata } from "@/lib/seo/metadata";
 import { Hero } from "@/components/home/hero";
 import { AboutTeaser } from "@/components/home/about-teaser";
 import { MenuTeaser } from "@/components/home/menu-teaser";
@@ -19,10 +20,12 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata.home" });
 
-  return {
+  return buildMetadata({
+    locale,
+    pathname: "/",
     title: t("title"),
     description: t("description"),
-  };
+  });
 }
 
 export default async function HomePage({ params }: PageProps) {
