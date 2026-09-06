@@ -3,6 +3,10 @@
     "home": {
       "title": "Spichlerz Nr 8 — Fine Dining, Wyspa Spichrzów, Gdańsk",
       "description": "Kameralna restauracja fine dining na Wyspie Spichrzów w Gdańsku. Autorskie menu degustacyjne oparte na bałtyckich i sezonowych produktach."
+    },
+    "menu": {
+      "title": "Menu — Spichlerz Nr 8",
+      "description": "Menu degustacyjne, karta a la carte i karta win restauracji Spichlerz Nr 8 — z pełnym oznaczeniem alergenów i opcji wegetariańskich."
     }
   },
   "Nav": {
@@ -56,6 +60,32 @@
       "heading": "Zarezerwuj stolik",
       "body": "Liczba miejsc jest ograniczona — polecamy rezerwację z co najmniej 24-godzinnym wyprzedzeniem.",
       "cta": "Przejdź do rezerwacji"
+    }
+  },
+  "Menu": {
+    "pageTitle": "Menu",
+    "pageIntro": "Menu zmienia się wraz z sezonem. Poniżej pełna karta: menu degustacyjne, dania a la carte i karta win, z oznaczeniem alergenów i opcji wegetariańskich.",
+    "dietary": {
+      "vegetarian": "wege",
+      "vegan": "wegańskie",
+      "glutenFree": "bez glutenu"
+    },
+    "tasting": {
+      "subtitle": "{count}-daniowe menu degustacyjne",
+      "priceLabel": "Cena",
+      "winePairingLabel": "Z parowaniem win"
+    },
+    "aLaCarte": {
+      "heading": "A la carte"
+    },
+    "wineList": {
+      "heading": "Karta win",
+      "glass": "kieliszek",
+      "bottle": "butelka"
+    },
+    "allergenLegend": {
+      "heading": "Legenda alergenów",
+      "description": "Numery przy potrawach odpowiadają poniższej liście, zgodnie z rozporządzeniem UE 1169/2011 o informowaniu konsumentów o żywności."
     }
   }
 }

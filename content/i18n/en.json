@@ -3,6 +3,10 @@
     "home": {
       "title": "Spichlerz Nr 8 — Fine Dining, Granary Island, Gdańsk",
       "description": "An intimate fine dining restaurant on Granary Island in Gdańsk. A signature tasting menu built on Baltic, seasonal produce."
+    },
+    "menu": {
+      "title": "Menu — Spichlerz Nr 8",
+      "description": "Tasting menu, a la carte and wine list at Spichlerz Nr 8 — fully marked with allergens and vegetarian options."
     }
   },
   "Nav": {
@@ -56,6 +60,32 @@
       "heading": "Book a table",
       "body": "Seating is limited — we recommend booking at least 24 hours in advance.",
       "cta": "Go to reservation"
+    }
+  },
+  "Menu": {
+    "pageTitle": "Menu",
+    "pageIntro": "Our menu changes with the season. Below is the full offering: tasting menu, a la carte dishes and wine list, with allergens and vegetarian options marked.",
+    "dietary": {
+      "vegetarian": "vegetarian",
+      "vegan": "vegan",
+      "glutenFree": "gluten-free"
+    },
+    "tasting": {
+      "subtitle": "{count}-course tasting menu",
+      "priceLabel": "Price",
+      "winePairingLabel": "With wine pairing"
+    },
+    "aLaCarte": {
+      "heading": "A la carte"
+    },
+    "wineList": {
+      "heading": "Wine list",
+      "glass": "glass",
+      "bottle": "bottle"
+    },
+    "allergenLegend": {
+      "heading": "Allergen legend",
+      "description": "The numbers next to each dish correspond to the list below, per EU Regulation 1169/2011 on food information to consumers."
     }
   }
 }
