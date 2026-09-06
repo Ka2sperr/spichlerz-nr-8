@@ -9,12 +9,26 @@
     "home": "Start",
     "menu": "Menu",
     "reservation": "Rezerwacja",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "mainNavLabel": "Nawigacja główna",
+    "language": "Język",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "mobileMenuTitle": "Menu nawigacyjne"
   },
   "OpenStatus": {
     "open": "Otwarte",
     "closingIn": "Zamykamy za {minutes} min",
     "closedUntil": "Zamknięte — otwieramy {day} o {time}"
+  },
+  "Weekday": {
+    "monday": "w poniedziałek",
+    "tuesday": "we wtorek",
+    "wednesday": "w środę",
+    "thursday": "w czwartek",
+    "friday": "w piątek",
+    "saturday": "w sobotę",
+    "sunday": "w niedzielę"
   },
   "Footer": {
     "rights": "Wszelkie prawa zastrzeżone."
@@ -22,5 +36,26 @@
   "Common": {
     "bookTable": "Zarezerwuj stolik",
     "viewMenu": "Zobacz menu"
+  },
+  "Home": {
+    "about": {
+      "heading": "O miejscu"
+    },
+    "menuTeaser": {
+      "heading": "Menu degustacyjne",
+      "subheading": "Siedem dań budujących opowieść o bałtyckim sezonie.",
+      "cta": "Zobacz pełne menu"
+    },
+    "chef": {
+      "eyebrow": "Szefowa kuchni"
+    },
+    "gallery": {
+      "heading": "Wnętrze i atmosfera"
+    },
+    "reservationCta": {
+      "heading": "Zarezerwuj stolik",
+      "body": "Liczba miejsc jest ograniczona — polecamy rezerwację z co najmniej 24-godzinnym wyprzedzeniem.",
+      "cta": "Przejdź do rezerwacji"
+    }
   }
 }

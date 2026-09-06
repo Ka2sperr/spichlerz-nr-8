@@ -9,12 +9,26 @@
     "home": "Home",
     "menu": "Menu",
     "reservation": "Reservation",
-    "contact": "Contact"
+    "contact": "Contact",
+    "mainNavLabel": "Main navigation",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mobileMenuTitle": "Navigation menu"
   },
   "OpenStatus": {
     "open": "Open now",
     "closingIn": "Closing in {minutes} min",
-    "closedUntil": "Closed — opening {day} at {time}"
+    "closedUntil": "Closed — opening on {day} at {time}"
+  },
+  "Weekday": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
   },
   "Footer": {
     "rights": "All rights reserved."
@@ -22,5 +36,26 @@
   "Common": {
     "bookTable": "Book a table",
     "viewMenu": "View menu"
+  },
+  "Home": {
+    "about": {
+      "heading": "About the place"
+    },
+    "menuTeaser": {
+      "heading": "Tasting menu",
+      "subheading": "Seven courses telling the story of the Baltic season.",
+      "cta": "View the full menu"
+    },
+    "chef": {
+      "eyebrow": "Head chef"
+    },
+    "gallery": {
+      "heading": "Interior and atmosphere"
+    },
+    "reservationCta": {
+      "heading": "Book a table",
+      "body": "Seating is limited — we recommend booking at least 24 hours in advance.",
+      "cta": "Go to reservation"
+    }
   }
 }

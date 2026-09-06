@@ -1,31 +1,46 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getRestaurant } from "@/lib/content/get-restaurant";
-import { Section } from "@/components/ui/section";
-import { Heading } from "@/components/ui/heading";
-import { ButtonLink } from "@/components/ui/button";
+import { getMenu } from "@/lib/content/get-menu";
+import { Hero } from "@/components/home/hero";
+import { AboutTeaser } from "@/components/home/about-teaser";
+import { MenuTeaser } from "@/components/home/menu-teaser";
+import { ChefSection } from "@/components/home/chef-section";
+import { Gallery } from "@/components/home/gallery";
+import { ReservationCta } from "@/components/home/reservation-cta";
 
-export default async function HomePage({
-  params,
-}: {
+type PageProps = {
   params: Promise<{ locale: string }>;
-}) {
+};
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Metadata.home" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
+
+export default async function HomePage({ params }: PageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const t = await getTranslations("Common");
   const restaurant = getRestaurant();
+  const menu = getMenu();
+  const typedLocale = locale as "pl" | "en";
 
   return (
-    <Section fullScreen tone="ink">
-      <Heading as="h1" size="hero">
-        {restaurant.name}
-      </Heading>
-      <p className="mt-6 max-w-prose text-lg">
-        {restaurant.shortTagline[locale as "pl" | "en"]}
-      </p>
-      <ButtonLink href="/reservation" className="mt-10 self-start">
-        {t("bookTable")}
-      </ButtonLink>
-    </Section>
+    <>
+      <Hero restaurant={restaurant} locale={typedLocale} />
+      <AboutTeaser restaurant={restaurant} locale={typedLocale} />
+      <MenuTeaser menu={menu} locale={typedLocale} />
+      <ChefSection restaurant={restaurant} locale={typedLocale} />
+      <Gallery restaurant={restaurant} locale={typedLocale} />
+      <ReservationCta />
+    </>
   );
 }
