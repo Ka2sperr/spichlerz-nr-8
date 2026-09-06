@@ -1,0 +1,115 @@
+{
+  "name": "Spichlerz Nr 8",
+  "legalName": "Spichlerz Nr 8 Sp. z o.o.",
+  "description": {
+    "pl": "Spichlerz Nr 8 to kameralna restauracja fine dining mieszcząca się w odrestaurowanym XVII-wiecznym spichlerzu na Wyspie Spichrzów w Gdańsku. Łączymy bałtycką tradycję kulinarną z nowoczesną techniką, serwując autorskie menu degustacyjne oparte na sezonowych, lokalnych produktach.",
+    "en": "Spichlerz Nr 8 is an intimate fine dining restaurant housed in a restored 17th-century granary on Granary Island in Gdańsk. We blend Baltic culinary tradition with modern technique, serving a signature tasting menu built on seasonal, local produce."
+  },
+  "shortTagline": {
+    "pl": "Fine dining na Wyspie Spichrzów",
+    "en": "Fine dining on Granary Island"
+  },
+  "address": {
+    "streetAddress": "Chmielna 8",
+    "addressLocality": "Gdańsk",
+    "postalCode": "80-748",
+    "addressCountry": "PL"
+  },
+  "geo": {
+    "latitude": 54.3486,
+    "longitude": 18.6544
+  },
+  "contact": {
+    "phone": "+48583001008",
+    "email": "rezerwacje@spichlerznr8.pl"
+  },
+  "social": {
+    "instagram": "https://instagram.com/spichlerznr8",
+    "facebook": "https://facebook.com/spichlerznr8"
+  },
+  "chef": {
+    "name": "Marta Wiśniewska",
+    "bio": {
+      "pl": "Marta Wiśniewska wróciła do Gdańska po latach pracy w kuchniach Kopenhagi i Sztokholmu, gdzie kształtowała swój styl oparty na fermentacji, lokalnym sezonie i szacunku do surowca. W Spichlerzu Nr 8 tworzy menu, w którym bałtycki dorsz, węgorz czy młoda kapusta spotykają się z technikami rodem ze skandynawskiego fine diningu.",
+      "en": "Marta Wiśniewska returned to Gdańsk after years spent in the kitchens of Copenhagen and Stockholm, where she shaped a style built on fermentation, local seasonality, and respect for the ingredient. At Spichlerz Nr 8 she creates a menu where Baltic cod, eel, and young cabbage meet techniques drawn from Scandinavian fine dining."
+    },
+    "photo": {
+      "src": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c",
+      "alt": {
+        "pl": "Szefowa kuchni Marta Wiśniewska podczas przygotowywania dania",
+        "en": "Head chef Marta Wiśniewska plating a dish"
+      },
+      "width": 1600,
+      "height": 2000
+    }
+  },
+  "gallery": [
+    {
+      "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+      "alt": {
+        "pl": "Wnętrze restauracji Spichlerz Nr 8",
+        "en": "Interior of Spichlerz Nr 8"
+      },
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0",
+      "alt": {
+        "pl": "Danie z menu degustacyjnego",
+        "en": "A dish from the tasting menu"
+      },
+      "width": 1600,
+      "height": 2000
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1544148103-0773bf10d330",
+      "alt": {
+        "pl": "Sala restauracyjna wieczorem",
+        "en": "The dining room in the evening"
+      },
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1552566626-52f8b828add9",
+      "alt": {
+        "pl": "Nakryty stół w restauracji",
+        "en": "A set table at the restaurant"
+      },
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1559339352-11d035aa65de",
+      "alt": {
+        "pl": "Kieliszek wina na tle sali",
+        "en": "A glass of wine against the dining room"
+      },
+      "width": 1600,
+      "height": 2000
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445",
+      "alt": {
+        "pl": "Bar restauracji nocą",
+        "en": "The restaurant bar at night"
+      },
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "priceRange": "$$$$",
+  "seating": {
+    "maxPartySize": 10,
+    "minAdvanceHours": 24
+  },
+  "parkingInfo": {
+    "pl": "Bezpłatny parking dla gości znajduje się przy ul. Stągiewnej, ok. 3 minuty pieszo od restauracji. Dostępny jest również parking podziemny w centrum handlowym Forum Gdańsk.",
+    "en": "Free guest parking is available on Stągiewna street, about a 3-minute walk from the restaurant. Underground parking is also available at the Forum Gdańsk shopping centre."
+  },
+  "directionsInfo": {
+    "pl": "Restauracja znajduje się na Wyspie Spichrzów, 5 minut pieszo od Żurawia i Głównego Miasta. Najbliższy przystanek tramwajowy to Brama Wyżynna, skąd do restauracji jest ok. 10 minut spacerem.",
+    "en": "The restaurant is located on Granary Island, a 5-minute walk from the Crane and the Main Town. The nearest tram stop is Brama Wyżynna, about a 10-minute walk from the restaurant."
+  }
+}

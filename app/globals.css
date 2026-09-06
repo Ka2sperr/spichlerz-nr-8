@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette */
+  --color-ink: #0a0a0a;
+  --color-paper: #f4f1ea;
+  --color-amber: #b8873f;
+  /* Darkened amber for text on light backgrounds — #b8873f on #f4f1ea is
+     ~2.1:1 contrast (fails AA). This variant is ~4.6:1 against --color-paper. */
+  --color-amber-ink: #8a6428;
+
+  /* Fonts, mapped from next/font CSS variables set on <html> */
+  --font-display: var(--font-fraunces), "Fraunces", ui-serif, serif;
+  --font-sans: var(--font-inter), "Inter", ui-sans-serif, sans-serif;
+
+  /* Display type scale — generous, asymmetric, fluid */
+  --text-hero: clamp(3rem, 4vw + 2rem, 7rem);
+  --text-hero--line-height: 0.98;
+  --text-display: clamp(2.25rem, 2.5vw + 1.5rem, 4rem);
+  --text-display--line-height: 1.05;
+  --text-heading: clamp(1.5rem, 1vw + 1.25rem, 2.25rem);
+  --text-heading--line-height: 1.15;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--color-amber);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-amber-ink);
+  outline-offset: 3px;
+}

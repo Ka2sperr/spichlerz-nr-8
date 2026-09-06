@@ -1,0 +1,364 @@
+{
+  "currency": "PLN",
+  "tastingMenu": {
+    "name": { "pl": "Menu Degustacyjne", "en": "Tasting Menu" },
+    "price": 420,
+    "coursesCount": 7,
+    "winePairingPrice": 240,
+    "courses": [
+      {
+        "id": "course-1",
+        "title": {
+          "pl": "Ostryga, jabłko, koper",
+          "en": "Oyster, apple, dill"
+        },
+        "description": {
+          "pl": "Ostryga z Zatoki Puckiej, granita z zielonego jabłka, olej koperkowy",
+          "en": "Oyster from the Bay of Puck, green apple granita, dill oil"
+        },
+        "allergens": ["molluscs"],
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": true
+      },
+      {
+        "id": "course-2",
+        "title": {
+          "pl": "Tatar wołowy, żółtko, chrust chlebowy",
+          "en": "Beef tartare, egg yolk, bread crisp"
+        },
+        "description": {
+          "pl": "Polędwica wołowa, żółtko wiejskiego jaja, musztarda staropolska, chrust z żytniego chleba",
+          "en": "Beef tenderloin, farm egg yolk, old Polish mustard, rye bread crisp"
+        },
+        "allergens": ["gluten", "eggs", "mustard"],
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false
+      },
+      {
+        "id": "course-3",
+        "title": {
+          "pl": "Wędzony węgorz, burak, chrzan",
+          "en": "Smoked eel, beetroot, horseradish"
+        },
+        "description": {
+          "pl": "Węgorz wędzony na olchowym drewnie, pieczony burak, krem chrzanowy",
+          "en": "Alder-smoked eel, roasted beetroot, horseradish cream"
+        },
+        "allergens": ["fish", "dairy"],
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": true
+      },
+      {
+        "id": "course-4",
+        "title": {
+          "pl": "Rosół z kaczki, grzyby, jarmuż",
+          "en": "Duck consommé, mushrooms, kale"
+        },
+        "description": {
+          "pl": "Klarowny rosół z kaczki, leśne grzyby, chips z jarmużu",
+          "en": "Clear duck consommé, forest mushrooms, kale chips"
+        },
+        "allergens": ["celery"],
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": true
+      },
+      {
+        "id": "course-5",
+        "title": {
+          "pl": "Dorsz bałtycki, kalafior, masło orzechowe",
+          "en": "Baltic cod, cauliflower, brown butter"
+        },
+        "description": {
+          "pl": "Dorsz z Zatoki Gdańskiej, puree z kalafiora, masło orzechowe, migdały",
+          "en": "Cod from the Gulf of Gdańsk, cauliflower purée, brown butter, almonds"
+        },
+        "allergens": ["fish", "dairy", "nuts"],
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": true
+      },
+      {
+        "id": "course-6",
+        "title": {
+          "pl": "Ser dojrzewający, miód, orzechy laskowe",
+          "en": "Aged cheese, honey, hazelnuts"
+        },
+        "description": {
+          "pl": "Lokalny ser dojrzewający, miód gryczany, prażone orzechy laskowe",
+          "en": "Local aged cheese, buckwheat honey, roasted hazelnuts"
+        },
+        "allergens": ["dairy", "nuts"],
+        "vegetarian": true,
+        "vegan": false,
+        "glutenFree": true
+      },
+      {
+        "id": "course-7",
+        "title": {
+          "pl": "Mleczko brzozowe, jagody, biała czekolada",
+          "en": "Birch sap cream, wild berries, white chocolate"
+        },
+        "description": {
+          "pl": "Mus z mleczka brzozowego, leśne jagody, sorbet z białej czekolady",
+          "en": "Birch sap mousse, wild forest berries, white chocolate sorbet"
+        },
+        "allergens": ["dairy", "soy"],
+        "vegetarian": true,
+        "vegan": false,
+        "glutenFree": true
+      }
+    ]
+  },
+  "aLaCarte": [
+    {
+      "sectionId": "starters",
+      "sectionName": { "pl": "Przystawki", "en": "Starters" },
+      "items": [
+        {
+          "id": "starter-1",
+          "name": {
+            "pl": "Carpaccio z buraka, kozi ser, orzechy",
+            "en": "Beetroot carpaccio, goat cheese, walnuts"
+          },
+          "description": {
+            "pl": "Cienko krojony pieczony burak, krem z koziego sera, prażone orzechy włoskie, oliwa ziołowa",
+            "en": "Thinly sliced roasted beetroot, goat cheese cream, roasted walnuts, herb oil"
+          },
+          "price": 62,
+          "allergens": ["dairy", "nuts"],
+          "vegetarian": true,
+          "vegan": false,
+          "glutenFree": true
+        },
+        {
+          "id": "starter-2",
+          "name": {
+            "pl": "Tatar z łososia, awokado, limonka",
+            "en": "Salmon tartare, avocado, lime"
+          },
+          "description": {
+            "pl": "Świeży łosoś, krem z awokado, sorbet limonkowy, chrupiąca quinoa",
+            "en": "Fresh salmon, avocado cream, lime sorbet, crispy quinoa"
+          },
+          "price": 74,
+          "allergens": ["fish"],
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true
+        },
+        {
+          "id": "starter-3",
+          "name": {
+            "pl": "Krem z topinamburu, trufla, orzechy laskowe",
+            "en": "Jerusalem artichoke cream, truffle, hazelnuts"
+          },
+          "description": {
+            "pl": "Aksamitny krem z topinamburu, olej truflowy, prażone orzechy laskowe",
+            "en": "Velvety Jerusalem artichoke cream, truffle oil, roasted hazelnuts"
+          },
+          "price": 58,
+          "allergens": ["dairy", "nuts"],
+          "vegetarian": true,
+          "vegan": false,
+          "glutenFree": true
+        }
+      ]
+    },
+    {
+      "sectionId": "mains",
+      "sectionName": { "pl": "Dania Główne", "en": "Mains" },
+      "items": [
+        {
+          "id": "main-1",
+          "name": {
+            "pl": "Policzki wołowe, puree ziemniaczane, marchew",
+            "en": "Beef cheeks, potato purée, carrot"
+          },
+          "description": {
+            "pl": "Wołowe policzki duszone 12 godzin, puree ziemniaczane na maśle, młoda marchew, sos demi-glace",
+            "en": "Beef cheeks braised for 12 hours, buttery potato purée, young carrots, demi-glace"
+          },
+          "price": 128,
+          "allergens": ["dairy", "celery"],
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true
+        },
+        {
+          "id": "main-2",
+          "name": {
+            "pl": "Dorsz bałtycki, groszek, boczek",
+            "en": "Baltic cod, peas, bacon"
+          },
+          "description": {
+            "pl": "Dorsz z Zatoki Gdańskiej, krem z zielonego groszku, wędzony boczek, chrupiąca skóra",
+            "en": "Cod from the Gulf of Gdańsk, green pea cream, smoked bacon, crispy skin"
+          },
+          "price": 118,
+          "allergens": ["fish"],
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true
+        },
+        {
+          "id": "main-3",
+          "name": {
+            "pl": "Risotto z jarmużem i serem dojrzewającym",
+            "en": "Kale and aged cheese risotto"
+          },
+          "description": {
+            "pl": "Kremowe risotto, jarmuż, lokalny ser dojrzewający, oliwa z pestek dyni",
+            "en": "Creamy risotto, kale, local aged cheese, pumpkin seed oil"
+          },
+          "price": 92,
+          "allergens": ["dairy"],
+          "vegetarian": true,
+          "vegan": false,
+          "glutenFree": true
+        },
+        {
+          "id": "main-4",
+          "name": {
+            "pl": "Kaczka, buraczki, wiśnie",
+            "en": "Duck, beetroot, cherries"
+          },
+          "description": {
+            "pl": "Pierś z kaczki, pieczone buraczki, sos wiśniowy, chips z jarmużu",
+            "en": "Duck breast, roasted beetroot, cherry sauce, kale chips"
+          },
+          "price": 132,
+          "allergens": [],
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true
+        }
+      ]
+    },
+    {
+      "sectionId": "desserts",
+      "sectionName": { "pl": "Desery", "en": "Desserts" },
+      "items": [
+        {
+          "id": "dessert-1",
+          "name": {
+            "pl": "Sernik na zimno, jagody, biała czekolada",
+            "en": "No-bake cheesecake, blueberries, white chocolate"
+          },
+          "description": {
+            "pl": "Kremowy sernik na zimno, kompot z leśnych jagód, wiórki białej czekolady",
+            "en": "Creamy no-bake cheesecake, forest blueberry compote, white chocolate shavings"
+          },
+          "price": 46,
+          "allergens": ["dairy", "eggs", "soy"],
+          "vegetarian": true,
+          "vegan": false,
+          "glutenFree": true
+        },
+        {
+          "id": "dessert-2",
+          "name": {
+            "pl": "Tarta czekoladowa, malina, sorbet",
+            "en": "Chocolate tart, raspberry, sorbet"
+          },
+          "description": {
+            "pl": "Kruche ciasto, ganache czekoladowy, sorbet malinowy, proszek z malin",
+            "en": "Shortcrust pastry, chocolate ganache, raspberry sorbet, freeze-dried raspberry powder"
+          },
+          "price": 48,
+          "allergens": ["gluten", "dairy", "eggs"],
+          "vegetarian": true,
+          "vegan": false,
+          "glutenFree": false
+        },
+        {
+          "id": "dessert-3",
+          "name": {
+            "pl": "Sorbet sezonowy (wegański)",
+            "en": "Seasonal sorbet (vegan)"
+          },
+          "description": {
+            "pl": "Sorbet z sezonowych owoców, świeża mięta",
+            "en": "Seasonal fruit sorbet, fresh mint"
+          },
+          "price": 38,
+          "allergens": [],
+          "vegetarian": true,
+          "vegan": true,
+          "glutenFree": true
+        }
+      ]
+    }
+  ],
+  "wineList": [
+    {
+      "category": { "pl": "Wina białe", "en": "White wines" },
+      "wines": [
+        {
+          "name": "Riesling, Mosel",
+          "producer": "Weingut Keller",
+          "region": "Niemcy",
+          "glassPrice": 38,
+          "bottlePrice": 190
+        },
+        {
+          "name": "Chardonnay, Chablis",
+          "producer": "Domaine Laroche",
+          "region": "Francja",
+          "glassPrice": 46,
+          "bottlePrice": 230
+        }
+      ]
+    },
+    {
+      "category": { "pl": "Wina czerwone", "en": "Red wines" },
+      "wines": [
+        {
+          "name": "Pinot Noir, Burgundia",
+          "producer": "Maison Louis Jadot",
+          "region": "Francja",
+          "glassPrice": 52,
+          "bottlePrice": 260
+        },
+        {
+          "name": "Nebbiolo, Barolo",
+          "producer": "Cantina Terre del Barolo",
+          "region": "Włochy",
+          "glassPrice": null,
+          "bottlePrice": 340
+        }
+      ]
+    },
+    {
+      "category": { "pl": "Wina musujące", "en": "Sparkling wines" },
+      "wines": [
+        {
+          "name": "Champagne Brut",
+          "producer": "Pommery",
+          "region": "Francja",
+          "glassPrice": 58,
+          "bottlePrice": 320
+        }
+      ]
+    }
+  ],
+  "allergenLegend": {
+    "gluten": { "pl": "Gluten", "en": "Gluten" },
+    "crustaceans": { "pl": "Skorupiaki", "en": "Crustaceans" },
+    "eggs": { "pl": "Jaja", "en": "Eggs" },
+    "fish": { "pl": "Ryby", "en": "Fish" },
+    "peanuts": { "pl": "Orzeszki ziemne", "en": "Peanuts" },
+    "soy": { "pl": "Soja", "en": "Soy" },
+    "dairy": { "pl": "Mleko i nabiał", "en": "Milk and dairy" },
+    "nuts": { "pl": "Orzechy", "en": "Nuts" },
+    "celery": { "pl": "Seler", "en": "Celery" },
+    "mustard": { "pl": "Gorczyca", "en": "Mustard" },
+    "sesame": { "pl": "Sezam", "en": "Sesame" },
+    "sulphites": { "pl": "Siarczyny", "en": "Sulphites" },
+    "lupin": { "pl": "Łubin", "en": "Lupin" },
+    "molluscs": { "pl": "Mięczaki", "en": "Molluscs" }
+  }
+}

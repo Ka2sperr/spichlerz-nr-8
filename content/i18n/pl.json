@@ -1,0 +1,26 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "Spichlerz Nr 8 — Fine Dining, Wyspa Spichrzów, Gdańsk",
+      "description": "Kameralna restauracja fine dining na Wyspie Spichrzów w Gdańsku. Autorskie menu degustacyjne oparte na bałtyckich i sezonowych produktach."
+    }
+  },
+  "Nav": {
+    "home": "Start",
+    "menu": "Menu",
+    "reservation": "Rezerwacja",
+    "contact": "Kontakt"
+  },
+  "OpenStatus": {
+    "open": "Otwarte",
+    "closingIn": "Zamykamy za {minutes} min",
+    "closedUntil": "Zamknięte — otwieramy {day} o {time}"
+  },
+  "Footer": {
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+  "Common": {
+    "bookTable": "Zarezerwuj stolik",
+    "viewMenu": "Zobacz menu"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "Spichlerz Nr 8 — Fine Dining, Granary Island, Gdańsk",
+      "description": "An intimate fine dining restaurant on Granary Island in Gdańsk. A signature tasting menu built on Baltic, seasonal produce."
+    }
+  },
+  "Nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "reservation": "Reservation",
+    "contact": "Contact"
+  },
+  "OpenStatus": {
+    "open": "Open now",
+    "closingIn": "Closing in {minutes} min",
+    "closedUntil": "Closed — opening {day} at {time}"
+  },
+  "Footer": {
+    "rights": "All rights reserved."
+  },
+  "Common": {
+    "bookTable": "Book a table",
+    "viewMenu": "View menu"
+  }
+}

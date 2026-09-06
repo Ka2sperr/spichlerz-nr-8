@@ -1,0 +1,19 @@
+{
+  "timezone": "Europe/Warsaw",
+  "regular": [
+    { "day": "monday", "closed": true },
+    { "day": "tuesday", "open": "17:00", "close": "23:00" },
+    { "day": "wednesday", "open": "17:00", "close": "23:00" },
+    { "day": "thursday", "open": "17:00", "close": "23:00" },
+    { "day": "friday", "open": "13:00", "close": "23:30" },
+    { "day": "saturday", "open": "13:00", "close": "23:30" },
+    { "day": "sunday", "open": "13:00", "close": "21:00" }
+  ],
+  "lastSeatingOffsetMinutes": 90,
+  "slotIntervalMinutes": 30,
+  "specialClosures": [
+    { "date": "2026-12-24", "reason": "closed_holiday" },
+    { "date": "2026-12-25", "reason": "closed_holiday" },
+    { "date": "2026-01-01", "reason": "closed_holiday" }
+  ]
+}
