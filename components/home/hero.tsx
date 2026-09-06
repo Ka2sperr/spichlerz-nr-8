@@ -29,6 +29,8 @@ export function Hero({ restaurant, locale }: Props) {
           alt={heroImage.alt[locale]}
           fill
           priority
+          fetchPriority="high"
+          quality={60}
           sizes="100vw"
           className="object-cover opacity-70"
         />

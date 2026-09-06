@@ -24,7 +24,7 @@ export async function AllergenLegend({ menu, locale }: Props) {
       <ul className="mt-6 grid grid-cols-2 gap-x-8 gap-y-2 text-sm md:grid-cols-3">
         {entries.map(([code, label]) => (
           <li key={code}>
-            <span className="text-ink/50 mr-2">{numberMap[code]}.</span>
+            <span className="text-ink/60 mr-2">{numberMap[code]}.</span>
             {label[locale]}
           </li>
         ))}

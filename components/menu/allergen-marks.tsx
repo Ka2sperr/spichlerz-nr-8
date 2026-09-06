@@ -17,7 +17,7 @@ export function AllergenMarks({ allergens, menu, locale }: Props) {
   const fullNames = allergens.map((code) => menu.allergenLegend[code][locale]);
 
   return (
-    <span className="text-ink/50 text-xs">
+    <span className="text-ink/60 text-xs">
       <span aria-hidden="true">({numbers.join(", ")})</span>
       <span className="sr-only"> {fullNames.join(", ")}</span>
     </span>

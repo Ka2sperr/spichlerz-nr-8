@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { getPathname } from "@/i18n/navigation";
 import { routing, type AppPathname } from "@/i18n/routing";
 
-export const SITE_URL = "https://spichlerznr8.pl";
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://spichlerznr8.pl";
 export const SITE_NAME = "Spichlerz Nr 8";
 
 type BuildMetadataOptions = {

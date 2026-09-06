@@ -21,13 +21,13 @@ export async function Footer() {
         <div className="flex flex-col gap-2 text-sm">
           <a
             href={`tel:${restaurant.contact.phone}`}
-            className="hover:text-amber"
+            className="hover:text-amber py-1"
           >
             {restaurant.contact.phone}
           </a>
           <a
             href={`mailto:${restaurant.contact.email}`}
-            className="hover:text-amber"
+            className="hover:text-amber py-1"
           >
             {restaurant.contact.email}
           </a>
@@ -37,9 +37,15 @@ export async function Footer() {
           className="flex flex-col gap-2 text-sm"
           aria-label={t("Nav.mainNavLabel")}
         >
-          <Link href="/menu">{t("Nav.menu")}</Link>
-          <Link href="/reservation">{t("Nav.reservation")}</Link>
-          <Link href="/contact">{t("Nav.contact")}</Link>
+          <Link href="/menu" className="py-1">
+            {t("Nav.menu")}
+          </Link>
+          <Link href="/reservation" className="py-1">
+            {t("Nav.reservation")}
+          </Link>
+          <Link href="/contact" className="py-1">
+            {t("Nav.contact")}
+          </Link>
         </nav>
       </div>
 

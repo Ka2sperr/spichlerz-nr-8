@@ -42,7 +42,7 @@ export async function TastingMenu({ menu, locale }: Props) {
           >
             <div>
               <p className="font-display text-lg">
-                <span className="text-ink/40 mr-3">
+                <span className="text-ink/60 mr-3">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 {course.title[locale]}

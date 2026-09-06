@@ -55,13 +55,13 @@ export default async function ContactPage({ params }: PageProps) {
             </p>
             <a
               href={`tel:${restaurant.contact.phone}`}
-              className="hover:text-amber-ink mt-4 block"
+              className="hover:text-amber-ink mt-4 block py-1"
             >
               {restaurant.contact.phone}
             </a>
             <a
               href={`mailto:${restaurant.contact.email}`}
-              className="hover:text-amber-ink"
+              className="hover:text-amber-ink block py-1"
             >
               {restaurant.contact.email}
             </a>
