@@ -1,16 +1,12 @@
 import { toZonedTime } from "date-fns-tz";
-import type { DaySchedule, OpeningHours, Weekday } from "@/types";
-import { toDateKey, timeToMinutes } from "@/lib/utils/date";
-
-const WEEKDAYS_BY_JS_INDEX: Weekday[] = [
-  "sunday",
-  "monday",
-  "tuesday",
-  "wednesday",
-  "thursday",
-  "friday",
-  "saturday",
-];
+import type { OpeningHours, Weekday } from "@/types";
+import {
+  findDaySchedule,
+  getWeekday,
+  isSpecialClosure,
+  timeToMinutes,
+  toDateKey,
+} from "@/lib/utils/date";
 
 const CLOSING_SOON_THRESHOLD_MINUTES = 60;
 const MAX_LOOKAHEAD_DAYS = 14;
@@ -20,18 +16,6 @@ export type OpenStatus =
   | { state: "closing-soon"; minutesRemaining: number }
   | { state: "closed"; nextOpenDay: Weekday; nextOpenTime: string };
 
-function isSpecialClosure(hours: OpeningHours, dateKey: string): boolean {
-  return hours.specialClosures.some((closure) => closure.date === dateKey);
-}
-
-function findSchedule(hours: OpeningHours, weekday: Weekday): DaySchedule {
-  const schedule = hours.regular.find((day) => day.day === weekday);
-  if (!schedule) {
-    throw new Error(`No schedule configured for "${weekday}" in hours.json`);
-  }
-  return schedule;
-}
-
 function findNextOpening(
   hours: OpeningHours,
   fromZonedDate: Date,
@@ -40,8 +24,8 @@ function findNextOpening(
     const candidate = new Date(fromZonedDate);
     candidate.setDate(candidate.getDate() + offset);
 
-    const weekday = WEEKDAYS_BY_JS_INDEX[candidate.getDay()];
-    const schedule = findSchedule(hours, weekday);
+    const weekday = getWeekday(candidate);
+    const schedule = findDaySchedule(hours, weekday);
 
     if (!schedule.closed && !isSpecialClosure(hours, toDateKey(candidate))) {
       return { day: weekday, time: schedule.open };
@@ -55,8 +39,8 @@ function findNextOpening(
 
 export function computeOpenStatus(hours: OpeningHours, now: Date): OpenStatus {
   const zonedNow = toZonedTime(now, hours.timezone);
-  const weekday = WEEKDAYS_BY_JS_INDEX[zonedNow.getDay()];
-  const todaySchedule = findSchedule(hours, weekday);
+  const weekday = getWeekday(zonedNow);
+  const todaySchedule = findDaySchedule(hours, weekday);
   const isClosedToday =
     todaySchedule.closed || isSpecialClosure(hours, toDateKey(zonedNow));
 

@@ -7,6 +7,10 @@
     "menu": {
       "title": "Menu — Spichlerz Nr 8",
       "description": "Menu degustacyjne, karta a la carte i karta win restauracji Spichlerz Nr 8 — z pełnym oznaczeniem alergenów i opcji wegetariańskich."
+    },
+    "reservation": {
+      "title": "Rezerwacja — Spichlerz Nr 8",
+      "description": "Zarezerwuj stolik w restauracji Spichlerz Nr 8 na Wyspie Spichrzów w Gdańsku."
     }
   },
   "Nav": {
@@ -86,6 +90,40 @@
     "allergenLegend": {
       "heading": "Legenda alergenów",
       "description": "Numery przy potrawach odpowiadają poniższej liście, zgodnie z rozporządzeniem UE 1169/2011 o informowaniu konsumentów o żywności."
+    }
+  },
+  "Reservation": {
+    "pageTitle": "Rezerwacja",
+    "pageIntro": "Rezerwacji można dokonać z co najmniej {hours}-godzinnym wyprzedzeniem. Potwierdzenie otrzymają Państwo mailem.",
+    "form": {
+      "dateLabel": "Data",
+      "timeLabel": "Godzina",
+      "partySizeLabel": "Liczba osób",
+      "nameLabel": "Imię i nazwisko",
+      "emailLabel": "E-mail",
+      "phoneLabel": "Telefon",
+      "notesLabel": "Uwagi (opcjonalnie)",
+      "submit": "Wyślij rezerwację",
+      "submitting": "Wysyłanie…",
+      "selectTime": "Wybierz godzinę",
+      "noSlots": "Brak dostępnych terminów tego dnia",
+      "guestsCount": "{count, plural, one {# osoba} few {# osoby} other {# osób}}"
+    },
+    "errors": {
+      "invalidDate": "Podaj prawidłową datę.",
+      "invalidTime": "Podaj prawidłową godzinę.",
+      "partySizeMin": "Minimalna liczba osób to 1.",
+      "partySizeMax": "Przekroczono maksymalną liczbę osób dla rezerwacji online.",
+      "nameRequired": "Podaj imię i nazwisko.",
+      "emailInvalid": "Podaj prawidłowy adres e-mail.",
+      "phoneInvalid": "Podaj prawidłowy numer telefonu.",
+      "notesTooLong": "Uwagi mogą mieć maksymalnie 500 znaków.",
+      "spamDetected": "Nie udało się przetworzyć formularza.",
+      "slotUnavailable": "Wybrany termin jest niedostępny — wybierz inną datę lub godzinę.",
+      "formHasErrors": "Formularz zawiera błędy — popraw zaznaczone pola.",
+      "emailSubject": "Potwierdzenie rezerwacji — Spichlerz Nr 8",
+      "emailBody": "Dzień dobry {name},\n\ndziękujemy za rezerwację stolika w Spichlerzu Nr 8.\n\nData: {date}\nGodzina: {time}\nLiczba osób: {partySize}\n\nDo zobaczenia!",
+      "success": "Dziękujemy! Rezerwacja została przyjęta, potwierdzenie wysłaliśmy mailem."
     }
   }
 }

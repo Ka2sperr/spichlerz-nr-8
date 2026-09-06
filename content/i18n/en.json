@@ -7,6 +7,10 @@
     "menu": {
       "title": "Menu — Spichlerz Nr 8",
       "description": "Tasting menu, a la carte and wine list at Spichlerz Nr 8 — fully marked with allergens and vegetarian options."
+    },
+    "reservation": {
+      "title": "Reservation — Spichlerz Nr 8",
+      "description": "Book a table at Spichlerz Nr 8 on Granary Island in Gdańsk."
     }
   },
   "Nav": {
@@ -86,6 +90,40 @@
     "allergenLegend": {
       "heading": "Allergen legend",
       "description": "The numbers next to each dish correspond to the list below, per EU Regulation 1169/2011 on food information to consumers."
+    }
+  },
+  "Reservation": {
+    "pageTitle": "Reservation",
+    "pageIntro": "Reservations require at least {hours} hours' notice. You will receive a confirmation by email.",
+    "form": {
+      "dateLabel": "Date",
+      "timeLabel": "Time",
+      "partySizeLabel": "Number of guests",
+      "nameLabel": "Full name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "notesLabel": "Notes (optional)",
+      "submit": "Send reservation",
+      "submitting": "Sending…",
+      "selectTime": "Select a time",
+      "noSlots": "No available times that day",
+      "guestsCount": "{count, plural, one {# guest} other {# guests}}"
+    },
+    "errors": {
+      "invalidDate": "Please enter a valid date.",
+      "invalidTime": "Please enter a valid time.",
+      "partySizeMin": "The minimum party size is 1.",
+      "partySizeMax": "This exceeds the maximum party size for online booking.",
+      "nameRequired": "Please enter your full name.",
+      "emailInvalid": "Please enter a valid email address.",
+      "phoneInvalid": "Please enter a valid phone number.",
+      "notesTooLong": "Notes can be at most 500 characters.",
+      "spamDetected": "The form could not be processed.",
+      "slotUnavailable": "The selected time is unavailable — please choose another date or time.",
+      "formHasErrors": "The form has errors — please review the highlighted fields.",
+      "emailSubject": "Reservation confirmation — Spichlerz Nr 8",
+      "emailBody": "Hello {name},\n\nThank you for booking a table at Spichlerz Nr 8.\n\nDate: {date}\nTime: {time}\nParty size: {partySize}\n\nSee you soon!",
+      "success": "Thank you! Your reservation has been received — a confirmation has been emailed to you."
     }
   }
 }
